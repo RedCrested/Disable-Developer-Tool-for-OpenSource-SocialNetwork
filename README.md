@@ -21,7 +21,7 @@ This library has the following features:
 ## How to setup the options
 
 After enabling the component, open the Disable Developer Tool option in the Config menu and set the options as you wish.
-![](https://www.redcrested.net/solutions/ossn/components/DisableDevTool/screenshot-admin.png)
+![](https://www.redcrested.net/components/DisableDevTool/screenshot-admin.png)
 
 
 ## Limitations
