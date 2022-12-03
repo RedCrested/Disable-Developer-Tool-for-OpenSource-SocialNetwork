@@ -2,7 +2,7 @@
 /**
  * Open Source Social Network
  *
- * @package   Admin Notification
+ * @package   Disable Developer Tool
  * @author    Red Crested <contact@redcrested.net>
  * @copyright (C) Red Crested
  * @license   Red Crested License  http://www.redcrested.net/license
