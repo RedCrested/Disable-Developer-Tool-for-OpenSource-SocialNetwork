@@ -4,10 +4,10 @@
     <id>DisableDevTool</id>
     <author>Red Crested Team</author>
     <description>Disable developer tool window and right click</description>
-    <license>Open Source Social Network License (OSSN LICENSE)</license>
+    <license>Red Crested licence</license>
     <author_url>https://www.redcrested.net/</author_url>
-    <license_url> http://www.opensource-socialnetwork.org/licence/</license_url>
-    <version>1.0</version>
+    <license_url>http://www.redcrested.net/licence/</license_url>
+    <version>1.1</version>
 	<requires>
 		<type>ossn_version</type>
 		<version>6.1</version>

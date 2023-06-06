@@ -32,7 +32,6 @@
 	<input type="text" value="<?php echo $settings->key; ?>" name="key" id="key" />
 </div>
 
-
 <br/>
 <div>
     <input type="checkbox" name="disableMenu" value='true' <?php echo $settings->disableMenu=="true" ? "checked": ""; ?>> <?php echo ossn_print('com:disabledevtool:disableMenu'); ?>
