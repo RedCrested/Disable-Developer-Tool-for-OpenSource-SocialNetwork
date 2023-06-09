@@ -13,6 +13,10 @@ $de = array(
     'admin:redcrested:components' => 'RedCrested Components',
     'disabledevtool' => 'Disable Developer Tool',
 
+    'com:disabledevtool:unallowed:page:title' => 'Unallowed Action',
+    'com:disabledevtool:unallowed:help' => 'Close the developer tools and ',
+    'com:disabledevtool:unallowed:help:link:text' => 'try again',
+
     'com:disabledevtool:tip' => 'To enable Developer Tool functions temporarilly, add in the end of URL of your site "?[YOUR_KEY]=[YOUR_SECRET]". 
     <br/>For example, if you key is "ossn" and your secret is "test", then you need add ?ossn=test at the end of URL',
     'com:disabledevtool:tkname' => 'Key',

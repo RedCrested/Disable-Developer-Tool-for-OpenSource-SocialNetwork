@@ -36,6 +36,8 @@ I'm releasing this component for free. But, if you want to help me to make more 
 
 ## Version
 
+- 1.2 
+    - Fixed loop when devtools is open before page load - #2
 - 1.1
     - Improved the verification for default values after component activation - #1
     - Changed the license type in XML file

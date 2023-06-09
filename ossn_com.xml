@@ -7,7 +7,7 @@
     <license>Red Crested licence</license>
     <author_url>https://www.redcrested.net/</author_url>
     <license_url>http://www.redcrested.net/licence/</license_url>
-    <version>1.1</version>
+    <version>1.2</version>
 	<requires>
 		<type>ossn_version</type>
 		<version>6.1</version>

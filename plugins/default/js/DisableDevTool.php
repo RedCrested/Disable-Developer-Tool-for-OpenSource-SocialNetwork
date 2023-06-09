@@ -17,7 +17,7 @@
 $(document).ready(function() {
     let config = {
         md5: '<?php echo md5($DisableDevTool_options->key); ?>', 
-        url: '<?php echo ossn_site_url(); ?>', // Jump page when closing the page fails, the default value is localhost
+        url: '<?php echo ossn_site_url()."unallowed"; ?>', // Jump page when closing the page fails, the default value is localhost
         tkName: '<?php echo $DisableDevTool_options->tkname; ?>', // bypass url parameter name when disabled, default is ddtk
         
         disableMenu: <?php echo $DisableDevTool_options->disableMenu; ?>, // Whether to disable the right-click menu Default is true
@@ -26,6 +26,6 @@ $(document).ready(function() {
         disableCopy: <?php echo $DisableDevTool_options->disableCopy; ?>, // Whether to disable copying, default is false
         disableCut: <?php echo $DisableDevTool_options->disableCut; ?>, // Whether to disable cutting, default is false
         disablePaste: <?php echo $DisableDevTool_options->disablePaste; ?>, // Whether to disable paste, default is false
-    }       
+    }   
     DisableDevtool(config);
 });

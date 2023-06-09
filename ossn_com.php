@@ -21,6 +21,12 @@ function disable_dev_tool()
       ossn_extend_view('js/ossn.site.public', 'js/DisableDevTool');
    }
 
+   if (com_is_active('PrivateNetwork')){
+      ossn_add_hook('private:network', 'allowed:pages', 'com_disabledevtool_extend_allowed_pages');
+   }
+
+   ossn_register_page('unallowed','disabledevtool_unallowed_page');
+
    if (ossn_isAdminLoggedin()) {
       ossn_register_com_panel('DisableDevTool', 'settings');
       ossn_register_action('disabledevtool/admin/settings', __DISABLEDEVTOOL__ . 'actions/settings.php');
@@ -36,6 +42,17 @@ function disable_dev_tool()
          )
       );
    }
+}
+function com_disabledevtool_extend_allowed_pages($hook, $type, $allowed_pages, $params) {
+    $allowed_pages[0][] = 'unallowed';
+    
+    return $allowed_pages;
+}
+
+function disabledevtool_unallowed_page(){
+   http_response_code(403);
+   include __DISABLEDEVTOOL__."plugins/default/pages/DisableDevTool/unallowed.php";
+   exit();
 }
 
 
